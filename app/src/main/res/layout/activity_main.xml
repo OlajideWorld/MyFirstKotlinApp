@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity"
+    android:padding="30dp"
+    >
+
+    <Button
+        android:id="@+id/ShowYourMessageIntent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/implicitMessage"
+        android:layout_marginBottom="58dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="@string/btn_showString_Intent" />
+
+    <EditText
+        android:id="@+id/EnterMessage"
+        android:layout_width="364dp"
+        android:layout_height="71dp"
+        android:layout_below="@+id/hobbiesButton"
+        android:layout_marginTop="74dp"
+        android:ems="10"
+        android:hint="@string/hint_message"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/sendYourMessage"
+        android:layout_width="381dp"
+        android:layout_height="118dp"
+        android:layout_above="@+id/ShowYourMessageIntent"
+        android:layout_below="@+id/EnterMessage"
+        android:layout_marginTop="69dp"
+        android:layout_marginBottom="28dp"
+        android:text="@string/btn_Explicit" />
+
+    <Button
+        android:id="@+id/implicitMessage"
+        android:layout_width="347dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="46dp"
+        android:text="@string/btn_Implicit" />
+
+    <Button
+        android:id="@+id/hobbiesButton"
+        android:layout_width="381dp"
+        android:layout_height="66dp"
+        android:text="@string/btn_recyclerScreen" />
+
+
+</RelativeLayout>

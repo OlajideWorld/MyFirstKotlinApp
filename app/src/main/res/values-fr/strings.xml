@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MaPremièreKotlinApp</string>
+    <string name="btn_showString_Intent">Afficher Toast dans la prochaine activité</string>
+    <string name="hint_message">entrez votre message</string>
+    <string name="btn_Explicit">Envoyez votre message (explicite)</string>
+    <string name="btn_Implicit">Partagez votre message avec une autre application (implicite)</string>
+    <string name="btn_recyclerScreen">Aller à l\'écran RecyclerView</string>
+    <string name="secondActivity_btn">Afficher le bouton</string>
+    <string name="secondActivity_TextView_text">Affichage</string>
+    <string name="default_message">nouveau message</string>
+    <string name="secondActivity_btn_toast">Vous êtes dans la deuxième activité</string>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyFirstKotlinApp</string>
+    <string name="btn_showString_Intent">Show Toast In Next Activity</string>
+    <string name="hint_message">enter your message</string>
+    <string name="btn_Explicit">Send Your Message Across (Explicit)</string>
+    <string name="btn_Implicit">Share your message with other app (Implicit)</string>
+    <string name="btn_recyclerScreen">Go to the RecyclerView Screen</string>
+    <string name="secondActivity_btn">showButton</string>
+    <string name="secondActivity_TextView_text">TextView</string>
+    <string name="default_message">newMessage</string>
+    <string name="secondActivity_btn_toast">You are in the second Activity</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyFirstKotlinAplicación</string>
+    <string name="btn_showString_Intent">Mostrar brindis en la siguiente actividad</string>
+    <string name="hint_message">Ingrese su mensaje</string>
+    <string name="btn_Explicit">Envía tu mensaje a través (explícito)</string>
+    <string name="btn_Implicit">Comparte tu mensaje con otra aplicación (implícito)</string>
+    <string name="btn_recyclerScreen">Ir a la pantalla RecyclerView</string>
+    <string name="secondActivity_btn">botón mostrar</string>
+    <string name="secondActivity_TextView_text">Vista de texto</string>
+    <string name="default_message">nuevo mensaje</string>
+    <string name="secondActivity_btn_toast">Estás en la segunda Actividad</string>
+</resources>
